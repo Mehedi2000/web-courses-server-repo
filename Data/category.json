@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "name": "HTML",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
+    },
+    {
+        "id": "2",
+        "name": "CSS",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
+    },
+    {
+        "id": "3",
+        "name": "Bootstrap",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png"
+    },
+    {
+        "id": "4",
+        "name": "Javascript",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png"
+    },
+    {
+        "id": "5",
+        "name": "React",
+        "img": "https://reactjs.org/logo-og.png"
+    },
+    {
+        "id": "6",
+        "name": "Node.js",
+        "img": "https://the-guild.dev/blog-assets/nodejs-esm/nodejs_logo.png"
+    }
+]
