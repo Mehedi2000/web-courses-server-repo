@@ -11,6 +11,7 @@ app.use(cors())
 const category = require('./Data/category.json')
 const courses = require('./Data/courses.json')
 
+// cerating api
 app.get('/', (req, res) => {
     res.send('Courses API Running');
 })
