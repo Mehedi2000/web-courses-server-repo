@@ -7,6 +7,7 @@ const port = process.env.PORT || 5000;
 
 app.use(cors())
 
+// Require data
 const category = require('./Data/category.json')
 const courses = require('./Data/courses.json')
 
@@ -19,6 +20,12 @@ app.get('/category', (req, res) => {
 })
 
 app.get('/category/:id', (req, res) => {
+    const id = req.params.id;
+    const selectedCategory = courses.find(c => c.id === id)
+    res.send(selectedCategory)
+})
+
+app.get('/checkout/:id', (req, res) => {
     const id = req.params.id;
     const selectedCategory = courses.find(c => c.id === id)
     res.send(selectedCategory)
